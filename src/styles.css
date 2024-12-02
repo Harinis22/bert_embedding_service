@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Global background and text color */
+body {
+    background-color: #000000;  /* Black background */
+    color: #FF0000;  /* Red text */
+}
+
+/* Centered layout */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Styling for input fields */
+.stTextArea, .stSelectbox {
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: #333333;  /* Dark grey background */
+    color: white;
+    border: 1px solid #FF0000;  /* Red border */
+}
+
+.stTextArea label, .stSelectbox label {
+    color: #FF0000;  /* Red label */
+}
+
+/* Styling for the button */
+.stButton>button {
+    background-color: #FF0000;  /* Red background for buttons */
+    color: white;
+    border: none;
+}
+
+.stButton>button:hover {
+    background-color: #CC0000;  /* Darker red on hover */
+}
+
+/* Styling for data frame */
+.stDataFrame {
+    margin-top: 20px;
+}

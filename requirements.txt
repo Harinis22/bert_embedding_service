@@ -1,0 +1,9 @@
+# Requirements for BERT Embedding Service
+streamlit       # Streamlit for building the dashboard
+transformers    # Hugging Face Transformers for BERT
+torch           # PyTorch for running BERT
+numpy           # For handling embeddings
+pandas          # For data manipulation
+altair          # For data visualization
+plotly          # For interactive plots
+wordcloud       # For generating word clouds
