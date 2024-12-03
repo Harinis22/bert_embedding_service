@@ -4,7 +4,9 @@ from transformers import BertTokenizer
 #adjust the path to data folder
 def load_and_preprocess_data():
     # Load the data
-    df = pd.read_csv("C:/Users/18136/Desktop/bert/bert_embedding_service/data/Linux_2k.log_structured.csv") 
+      # Load the data
+    url = "https://raw.githubusercontent.com/logpai/loghub/master/Linux/Linux_2k.log_structured.csv"
+    df = pd.read_csv(url) 
     data = df[['Content', 'EventId', 'EventTemplate']] # selecting last 3 columns needed
     
     return data
